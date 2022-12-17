@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="shortcut icon" href="./assets/images/image-web-3-desktop.jpg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+  <nav>
+    <div class="sm:flex xl:py-16 sm:py-10 sm:px-11 md:px-20 xl:px-44 items-center justify-between">
+      <a href="/" class="ml-4 sm:ml-0 cursor-pointer flex items-center mt-5 sm:mt-0">
+        <span class="my-auto ml-1">
+          <h1 id="w" class="font-extrabold text-3xl text-black sm:text-4xl xl:text-6xl">W.</h1>
+        </span>
+      </a>
+
+      <div class="absolute right-6 top-7 cursor-pointer sm:hidden">
+        <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg" id="bar">
+          <g fill="#00001A" fill-rule="evenodd">
+            <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+            <path d="M0 0h40v3H0z" />
+          </g>
+        </svg>
+        <svg width="30" height="31" xmlns="http://www.w3.org/2000/svg" id="close" style="display: none;">
+          <g fill="#00001A" fill-rule="evenodd">
+            <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+            <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+          </g>
+        </svg>
+      </div>
+
+      <!--Mobile, Tablet && PC navigation menu-->
+      <div class="flex ml-4 hidden sm:flex" id="nav-menu">
+        <ul class="sm:flex sm:space-x-10 w-screen h-screen text-center sm:w-auto sm:h-auto">
+          <a href="/" class="tag">
+            <li class="text-black font-semibold my-10 mx-4 sm:mx-0 sm:my-0">Home</li>
+          </a>
+          <a href=" #new" class="tag">
+            <li class="text-black font-semibold my-10 mx-4 sm:mx-0 sm:my-0">New</li>
+          </a>
+          <a href=" #" class="tag">
+            <li class="text-black font-semibold my-10 mx-4 sm:mx-0 sm:my-0">Popular</li>
+          </a>
+          <a href=" #" class="tag">
+            <li class="text-black font-semibold my-10 mx-4 sm:mx-0 sm:my-0">Trending</li>
+          </a>
+          <a href=" #" class=" tag">
+            <li class=" text-black font-semibold my-10 mx-4 sm:mx-0 sm:my-0">Categories</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="sm:flex sm:px-5 md:px-6 xl:px-32">
+    <!--Carousel-->
+    <section>
+      <img src=" ./assets/images/image-web-3-desktop.jpg" alt="carousel"
+        class="px-4 py-5 h-64 md:pl-7 xl:px-10 md:h-1/2 md:w-full xl:h-3/5 sm:mt-0 sm:ml-3">
+      <div class="md:flex">
+        <h1 class="font-extrabold text-4xl sm:text-3xl mt-2 pl-4 pr-24 xl:text-6xl sm:ml-10 sm:mt-10 sm:pr-0 mr-0"
+          id="h1">The
+          Bright Future
+          of Web
+          3.0?
+        </h1>
+        <div class="sm:none sm:mr-5">
+          <p id="p" class="pl-4 pr-2 mt-5 text-lg sm:text-sm sm:pr-0 sm:ml-11 md:ml-20 md:text-base xl:text-xl">We dive
+            into the
+            next
+            evolution of the
+            web
+            that
+            claims
+            to
+            put
+            the
+            power
+            of
+            the
+            platforms
+            back into the
+            hands
+            of the
+            people.
+            But is it really fulfilling its promise?</p>
+          <button id="btn1"
+            class="px-8 py-3 md:px-8 md:py-3 sm:px-10 sm:py-1 tracking-widest ml-4 mt-6 sm:mt-10 md:ml-24 sm:ml-16">READ
+            MORE</button>
+
+        </div>
+      </div>
+    </section>
+    <!--New-->
+    <section id="new" class="mt-14 px-6 mx-5 sm:mt-5 xl:pl-10 sm:w-full">
+      <h2 id="h2" class="px-5 pt-4 font-bold text-3xl xl:text-4xl sm:mt-6">New</h2>
+      <h1 class="px-5 pt-6 font-bold sm:text-base xl:text-lg sm:px-0 sm:ml-0 sm:pt-8" id="new-h1">Hydrogen
+        VS
+        Electric
+        Cars</h1>
+      <p id="new-p" class="pb-7 pt-2 sm:font-semibold sm:pt-7">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <hr>
+      <h1 class="px-5 pt-6 font-bold sm:text-base xl:text-lg sm:px-0 sm:ml-0 sm:pt-8" id="new-h1">The Downsides of AI
+        Artistry</h1>
+      <p id="new-p" class="pb-7 pt-2 sm:font-semibold sm:pt-7">What are the possible adverse effects of on-demand AI
+        image
+        generation?
+      </p>
+      <hr>
+      <h1 class="px-5 pt-6 font-bold sm:text-base xl:text-lg sm:px-0 sm:ml-0 sm:pt-8" id="new-h1">Is VC Funding Drying
+        Up?
+      </h1>
+      <p id="new-p" class="pb-7 pt-2 sm:font-semibold sm:pt-7">Private funding by VC firms is down 50%
+        YOY. We
+        take a
+        look at
+        what that
+        means.
+      </p>
+    </section>
+  </section>
+
+  <!-- Bottom-->
+  <section class="mt-20 md:flex xl:mt-48 xl:px-20 md:mt-20 md:px-0 md:pr-10 sm:mt-28">
+    <div class="mb-20 flex mx-6 sm:mx-20 md:mx-6 md:pl-10">
+      <img src="./assets/images/image-retro-pcs.jpg" class="w-2/4 h-3/5" alt="retro" id="retro">
+      <div class="ml-4 sm:ml-10 md:ml-4"><span class="text-3xl font-black sm:text-6xl md:text-3xl">01</span>
+        <h1 class="font-black">Reviving Retro PCs</h1>
+        <p id="bottom-p" class="font-black text-sm">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </div>
+
+    <div class="mb-20 flex mx-6 sm:mx-20 md:mx-20">
+      <img src="./assets/images/image-top-laptops.jpg" class="w-2/4 h-3/5" alt="laptop" id="laptop">
+      <div class="ml-4 sm:ml-10 md:ml-4"><span class="text-3xl font-black sm:text-6xl md:text-3xl">02</span>
+        <h1 class="font-black">Top 10 Laptops of 2022</h1>
+        <p id="bottom-p" class="font-black text-sm">Our best picks for various needs and budgets.
+        </p>
+      </div>
+    </div>
+
+    <div class="mb-20 flex mx-6 sm:mx-20 md:mx-6">
+      <img src="./assets/images/image-gaming-growth.jpg" class="w-2/4 h-3/5" alt="growth" id="growth">
+      <div class="ml-4 sm:ml-10 md:ml-4"><span class="text-3xl font-black ">03</span>
+        <h1 class="font-black">The Growth of Gaming</h1>
+        <p id="bottom-p" class="font-black text-sm">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="attribution text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Nugar</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

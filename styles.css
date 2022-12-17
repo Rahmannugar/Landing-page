@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap');
+
+@font-face {
+    font-family: font;
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: bold-font;
+    src: url("./assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+body {
+    font-family: font;
+}
+
+h1 {
+    font-family: bold-font;
+    color: hsl(240, 100%, 5%);
+}
+
+#w {
+    font-family: 'Abril Fatface', cursive;
+}
+
+#p {
+    color: hsl(236, 13%, 42%)
+}
+
+#btn1 {
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+}
+
+#btn1:hover {
+    background-color: gray;
+    transition: all ease 1s;
+}
+
+#new {
+    background-color: hsl(240, 100%, 5%);
+}
+
+#h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+#new-h1 {
+    color: hsl(36, 100%, 99%);
+}
+
+#new-p {
+    color: hsl(236, 13%, 42%)
+}
+
+span {
+    color: hsl(233, 8%, 79%);
+}
+
+#bottom-p {
+    color: hsl(233, 8%, 79%);
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    #laptop {
+        width: 206.42px;
+        height: 262.14px;
+    }
+
+    #growth {
+        width: 206.42px;
+        height: 262.14px;
+    }
+
+}
